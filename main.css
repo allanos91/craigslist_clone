@@ -31,3 +31,65 @@ p.more {
 }
 
 /* Your code here */
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+li{
+  list-style-type: none;
+}
+
+ul{
+  padding-left: 0;
+}
+
+.area{
+  display: flex;
+  justify-content: center;
+}
+#leftbar{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#center{
+  display: flex;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#rightbar{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.page-container{
+  justify-content: center;
+  display: flex;
+}
+
+.community,.housing,.jobs{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#logoAnchor,.postlksList{
+  color: purple;
+}
+
+h4.ban::before{
+  content: '☮️';
+}
+.clfooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
